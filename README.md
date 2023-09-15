@@ -5,18 +5,34 @@ Currently things todo
 
 ----Clientside----
 UI-> making classes for things on ui.py(?)
+
+
 OBJECTS -> creating instances for Objects a method to create them, build or buy, and destroy. 
+
+
 SOUND -> Creating sounds to add to the experience. make it so if current player may be not affectded by sound in some ocasions. maybe add a small plugin for voice, ( to think on it) 
+
+
 Player -> creating Player.py to make a class only for the player, this will give us some wiggle room in case we want to treat it's phisics differently of the ship, like in case gravity fails?( we migth need to merge this to objects, or make it so players are objects. 
+
+
 Syicronism clock -> this is a simple concept. a clock the runs on the "Gameloop" and keeps the player always in sync with the game, if it gets way of, it will reload the files like it was recconingting again,( we may need to pay attention to this because we may need to set ways to the server to keep at the same speed that client sees. 
 
 -ServerSide-- 
 
 
 Sync-clock -> Read above 
+
+
 PlayerPlacements -> wheree the players are on the map at the current time in the server. 
+
+
 Items values/Placements -> name explains it.
+
+
 "server placement" -> Where on the big picture of the map the server currently IS. 
+
+
 server events -> events that are handled by the server like. SHIP SIGHTED, or DEBREE FIELD, and stuff like that 
 
 
