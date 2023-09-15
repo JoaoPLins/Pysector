@@ -35,26 +35,24 @@ Items values/Placements -> name explains it.
 
 server events -> events that are handled by the server like. SHIP SIGHTED, or DEBREE FIELD, and stuff like that 
 
-
-
-
-
-
-
-
-
-
-
 PT-BR -> coisas a fazer: 
+
 ---ClientSide---
+
 ->carregamento de mapa e objetos .
+
 ->interação simples com objetos. 
+
 ->som
+
 ->relogio de sincronia
+
 ->movimentação e carregamento de entidades que nao sou o player
+
 ->movimentação do player 
 
 ---SERVERSIDE---
+
 PARA Alpha1
 
 Sistema de server, (pode ser que a gente possa usar outras linguagens porem no momento vamos assumir que estamos trabalhando somente com o python. 
@@ -62,8 +60,13 @@ Sistema de server, (pode ser que a gente possa usar outras linguagens porem no m
 Fase-1 -> Medio e Grandes servers (esses servers tem host FIXO) neles serao calculados os seguintes: 
 
 ->Variaveis dependentes de Tile positions(espaço no mapa). 
+
 ->local dos players
+
 ->Valores de items 
+
 ->"local do server"
+
 ->eventos de server
+
 ->relogio de sincronia 
