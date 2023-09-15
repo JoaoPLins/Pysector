@@ -4,6 +4,7 @@ this is a space game made in python, it consists of a CO-OP spaceship battle Sim
 Currently things todo 
 
 ----Clientside----
+
 UI-> making classes for things on ui.py(?)
 
 
